@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>GALLOS - INSCRIPCIÓN</title>
+</head>
+<body>
+	<h1>INSCRIPCIÓN</h1>
+	<form>
+		<p>
+			<fieldset>
+				<legend>Datos Personales</legend>
+		Nombre de raper@:<input type="text" name="nombre" placeholder="Por ejemplo: Arkano">
+		<br>
+		Contraseña: <input type="password" name="contraseña" placeholder="¡Debes recordarla!">
+			</fieldset>
+		</p>
+		<p>
+			<fieldset>
+				<legend>Descripción artística</legend>
+		¿Cuánto flow tienes?
+		<br>
+		<input type="radio" name="flow" value="Mucho"> Mucho
+		<br>
+		<input type="radio" name="flow" value="Normal"> Normal
+		<br>
+		<input type="radio" name="flow" value="Poco"> Poco
+		<br>
+		¿Cuál es tu estilo? 
+		<select type="select" name="estilo"><option value="Punchline" selected>Punchline</option><option value="Doble Tempo">Doble Tempo</option><option value="Liricas">Liricas</option></select>
+			</fieldset>
+		</p>
+		<p>
+			<fieldset>
+				<legend>Demostración</legend>
+				<textarea name="rimas" rows="5" cols="40" placeholder="Pon una base para motivarte..."></textarea>
+				<br>
+				Sube un video tuyo: <input type="file" name="video">
+		
+		</fieldset>
+		</p>
+		<input type="checkbox" name="condiciones"> Aceptar las condiciones sin leerlas 
+		<br>
+		<input type="submit" name="vaciar" value="Vaciar formulario"> 
+		<input type="submit" name="enviar" value="Enviar"> 
+	</form>
+	<hr>
+	<a href="../portada.html"><img src="../img/botonVolver.png" alt="botonVolver"></a>
+</body>
+</html>
