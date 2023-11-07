@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Nuevos Controles</title>
+</head>
+<body>
+	<h1>Formulario HTML5</h1>
+	<form>
+		Empresa a la que iras: <input type="text" name="empresa" minlength="3" maxlength="20" autofocus required> <br>
+		Web de la empresa (opcional): <input type="text" name="empresaweb"> <br>
+		Correo de contacto (opcional): <input type="text" name="empresacorreo"> <br>
+		Móvil de contacto (opcional): <input type="tel" name="contactotel" pattern="6{1}[0-9]{8}"><br>
+		Fecha de inicio de prácticas: <input type="date" min="2024-03-01" max="2024-03-31" name="fecha" required> <br>
+		Empezaras a las... <input type="time" min="07:00" max="09:00" name="horario" step="900" required> <br>
+		Horas a la semana: <input type="number" name="totalhoras" min="30" max="40" value="36" required> <br>
+		Marca del vehiculo con el que irás: <input type="text" name="marcavehiculo" list="vehicleid" required>
+		<datalist id="vehicleid">
+			<option value="Kia">
+			<option value="Ford">
+			<option value="Mustang">
+			<option value="Lamborghini">
+		</datalist><br>
+		Color (opcional): <input type="color" name="colorid" value="#FFFFFF"><br>
+		DNI : <input type="text" name="iddni" pattern="[0-9]{8}[A-Z]{1}" required><br>
+		¿Cuánto te gustó este formulario?<br>
+		Nada <input type="range" name="rangeid" min="1" max="4" value="3"> Mucho<br>
+		<input type="submit" name="enviar">
+
+
+
+	</form>
+</body>
+</html>
