@@ -1,0 +1,46 @@
+body {
+    background-color: #d7aefb;
+}
+
+h1 {    
+    background-color: #fbd9a0;
+    color: #800080;
+    text-align: center;
+}
+
+h2{
+    color: #5e04ac;
+    text-align: center;
+}
+table {
+
+    text-align: center;
+
+    width: 100%;
+}
+
+img {
+    height: 50px;
+}
+
+td {
+    width: 25%;
+    background-color: #affbae;
+}
+
+th {
+    background-color: black;
+    color: white;
+}
+
+p {
+    text-align: right;
+}
+
+strike {
+    color: red;
+}
+
+b {
+    color: blue;
+}
