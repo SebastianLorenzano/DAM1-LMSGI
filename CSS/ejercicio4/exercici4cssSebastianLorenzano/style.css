@@ -6,11 +6,13 @@ h1 {
     background-color: #fbd9a0;
     color: #800080;
     text-align: center;
+    font-family: Comic Sans MS;
 }
 
 h2{
     color: #5e04ac;
     text-align: center;
+    font-family: Comic Sans MS;
 }
 table {
 
@@ -26,15 +28,18 @@ img {
 td {
     width: 25%;
     background-color: #affbae;
+    font-family: Arial;
 }
 
 th {
     background-color: black;
     color: white;
+    font-family: Arial;
 }
 
 p {
     text-align: right;
+    font-family: Calibri;
 }
 
 strike {
