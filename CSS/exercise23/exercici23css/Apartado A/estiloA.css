@@ -1,0 +1,19 @@
+/*
+	Haz tú el CSS. Pistas:
+	- Al contenedor grande de este ejercicio NO se le ha puesto ancho, ni padding, ni color de fondo...
+	- Sí que se le ha puesto una altura de 800px
+	- En las 5 "cajas", los colores de fondo usados han sido: black, lightgray, lightyellow y gray
+	- El GRID... ¡¡debes hacerlo con grid-template-areas!!
+	  Ten en cuenta la imagen de pista que he puesto en el PDF "Com t'ha de quedar l'Exercici 23"
+	- El ancho de las columnas del grid es 80% 20%
+	- El alto de las filas del grid es 20% 10% auto 10%
+*/
+
+
+#div0 {
+	height: 800px;
+}
+
+#div1 {
+	
+}
