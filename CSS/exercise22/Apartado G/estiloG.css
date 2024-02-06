@@ -1,0 +1,10 @@
+/*
+	Aquí te recomiendo partir del estilo del ¡¡apartado E!!
+	(porque el contenedor grande vuelve a tener 800px de altura)
+	
+	Y luego, ten en cuenta estas cosas:
+	- Aunque no lo parezca, se han definido 3 columnas y 3 filas
+	- Las 3 columnas son igual de anchas
+	- La 1ª y la 3ª fila ocupan un 15% de la altura. La 2ª altura automática
+	- Con todo eso hecho, tan solo te falta COMBINAR las celdas que tocan...
+*/

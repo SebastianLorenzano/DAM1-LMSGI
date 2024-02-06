@@ -1,0 +1,8 @@
+/*
+	Haz tú el CSS. Pistas:
+	- El contenedor grande ocupa un ancho del 80% de la página, y está centrado (recuerda cómo centrábamos las tablas)
+	- Dicho contenedor grande tiene borde de 1px, fondo lightyellow y espacio "hacia dentro" (¿recuerdas el nombre?) de 10px
+	- Las "cajitas" pequeñas tiene borde de 1px, fondo rosa y usan letra Arial tamaño 24px
+	- Además, pon a dichas cajas la propiedad line-height con el valor 100px
+	- Por último, ten en cuenta que el contenedor será un GRID de 3 COLUMNAS del mismo ancho (automático)
+*/

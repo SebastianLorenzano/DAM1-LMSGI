@@ -1,0 +1,11 @@
+/*
+	Puedes reutilizar los estilos anteriores, pero cuidado:
+	- Antes de nada, QUITA LA LÍNEA DE LINE-HEIGHT a las "cajitas"
+	  (porque ahora jugaremos con las alturas del grid, y no queremos eso...)
+	  
+	En este caso:
+	- La primera columna ocupa el 50%, y las otras dos un 25%
+	- La 1ª filas tendrá una altura de 100px, la 2ª de 200px, la 3ª de 300px...
+	  y a la 4ª le pondremos altura automática. ¿Entiendes lo que pasa con esa?
+      Simplemente se ajusta al contenido, que en este caso es muy poco...	  
+*/

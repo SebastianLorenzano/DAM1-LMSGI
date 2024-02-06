@@ -1,0 +1,61 @@
+#zonaNaranja {
+	float: left;
+	height: 150px;
+	width: 50%;
+	background-color: orange;	
+
+}
+
+#zonaNaranja ul {
+	color: blue;
+}
+
+#zonaRosa {
+	float: left;
+	height: 150px;
+	width: 50%;
+	background-color: pink;
+}
+
+#zonaAmarilla {
+	float: left;
+	height: 350px;
+	width: 50%;
+	background-color: yellow;
+}
+
+#zonaAmarilla table {
+	margin: auto;
+
+}
+
+
+#zonaRoja {
+	float: left;
+	height: 350px;
+	width: 50%;
+	background-color: red;
+}
+
+#zonaRoja h1 {
+	color: white;
+}
+
+#zonaRoja table {
+	margin-left: auto;
+}
+
+#zonaLila {
+	float: left;
+	height: 100px;
+	width: 100%;
+	background-color: purple;
+	display: flex;
+	justify-content: center;
+	
+}
+
+#zonlaLila img {
+	margin: 10px;
+}
+
