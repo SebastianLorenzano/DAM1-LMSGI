@@ -3,3 +3,24 @@
 	SALVO UNA LÍNEA. Esta vez habrá 4 columnas, y los anchos
 	serán de 10%, 20%, 30% y 40% respectivamente.	
 */
+
+#divPrincipal{
+	display: grid;
+	grid-template-columns: 10% 20% 30% 40%;
+	width: 80%;
+	margin: auto;
+	padding: 10px;
+	border: 1px solid black;
+	background-color: lightyellow;
+	
+	
+}
+
+.caja{
+	border: 1px solid black;
+	background-color: pink;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 24px;
+	line-height: 100px;
+	text-align: center;
+}
