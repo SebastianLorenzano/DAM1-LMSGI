@@ -4,3 +4,39 @@
 	...salvo los SELECTORES para acceder a cada zona, claro.
 	Cambia esa tontería y lo tienes :-)
 */
+
+#box {
+	height: 800px;
+	display: grid;
+	grid-template-areas: "header header"
+					  	 "advertisement menu"
+						 "content menu"
+						 "footer footer";
+	grid-template-columns: 80% 20%;
+	grid-template-rows: 20% 10% auto 10%;
+}
+
+header{
+	grid-area: header;
+	background: black;
+}
+
+aside{
+	grid-area: advertisement;
+	background: lightgray;
+}
+
+nav{
+	grid-area: menu;
+	background: gray;
+}
+
+main{
+	grid-area: content;
+	background: lightyellow;
+}
+
+footer{
+	grid-area: footer;
+	background: black;
+}

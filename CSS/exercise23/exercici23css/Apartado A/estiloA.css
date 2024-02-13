@@ -9,11 +9,39 @@
 	- El alto de las filas del grid es 20% 10% auto 10%
 */
 
-
-#div0 {
+#box {
 	height: 800px;
+	display: grid;
+	grid-template-areas: "header header"
+					  	 "advertisement menu"
+						 "content menu"
+						 "footer footer";
+	grid-template-columns: 80% 20%;
+	grid-template-rows: 20% 10% auto 10%;
 }
 
-#div1 {
-	
+#header {
+	grid-area: header;
+	background: black;
+}
+
+#menu {
+	grid-area: menu;
+	background: gray;
+}
+
+#advertisement {
+	grid-area: advertisement;
+	background: lightgray;
+}
+
+#content {
+	grid-area: content;
+	background: lightyellow;
+}
+
+#footer {
+	grid-area: footer;
+	background: black;
+
 }
