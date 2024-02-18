@@ -4,3 +4,23 @@
 	- Hay 4 columnas igual de anchas
 	- Las filas tendrán, esta vez, altura en % (20-60-20)	  
 */
+
+#divPrincipal{
+	display: grid;
+	grid-template-columns: auto auto auto auto;
+	grid-template-rows: 20% 60% 20%;
+	width: 80%;
+	height: 800px;
+	margin: auto;
+	padding: 10px;
+	border: 1px solid black;
+	background-color: lightyellow;		
+}
+
+.caja{
+	border: 1px solid black;
+	background-color: pink;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 24px;
+	text-align: center;
+}
