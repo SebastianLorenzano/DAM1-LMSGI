@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>DEEP ROCK GALACTIC - UNETE YA!!</title>
+</head>
+<body>	
+	<img src="../img/barraArriba.png" usemap="#idbarmenu" alt="barraArriba.png">
+	<map name="idbarmenu">
+		<area shape="rect" coords="90,30,270,80" href="formulario.html">
+		<area shape="rect" coords="280,30,400,80" href="missions.html">
+		<area shape="rect" coords="470,30,570,80" href="maps.html">
+		<area shape="rect" coords="660,5,850,100" href="../index.html">
+		<area shape="rect" coords="970,30,1170,80" href="characters.html">
+		<area shape="rect" coords="1320,30,1460,80" href="monsters.html">
+	</map>
+			<h1>Ahora solamente debes seguir unos simples pasos, y ya podras mandar petición y empezar tu camino para formar parte de la más respetada y temeraria misión minera de toda la galaxia! Sigue los siguientes pasos:</h1>
+		<form id="formulariojoin" action="" method="">
+				<h1></h1>	
+					<fieldset>
+						<legend><b><u>Tus Datos</u></b></legend>
+							<b>Nombre:</b> <input type="text" name="nombre" placeholder="Escribe tu nombre" required><br><p>
+					</p>
+					<b>Apellido 1:</b> <input type="text" name="apellido" placeholder="Escribe tu primer apellido" required><br><p>
+					</p>
+					<b>Apellido 2:</b> <input type="text" name="apellido2" placeholder="Escribe tu segundo apellido" required><br><p></p>
+					<b>U-DNI (UNIVERSAL DNI):</b> <input type="text" name="U-DNI" pattern="[0-9]{13}[A-Za-z]{1}" required title="U-DNI" placeholder="Escribe tu U-DNI" required><p></p>
+
+					<b>U-MAIL:</b> <input type="email" name="U-MAIL" placeholder="Escribe tu U-MAIL" required><br>
+					<p></p>
+					<b>Chip instalado por defecto:</b> <input type="text" name="chip" pattern="6{1}[0-9]{8}" title="chipid" placeholder="No lo utilizaremos para nada raro!" required><br>
+					<p>
+					</p>
+			</fieldset><p></p>
+			<fieldset>
+				<legend><b><u>Preferencias</u></b></legend>
+					<h3>Queremos saber más de ti! Cuentanos, adelante no tengas miedo!</h3>
+					<b>Arma favorita a Elección:</b> <input type="text" name="armalist" list="arma" placeholder="No te contengas!"required>
+							<br>
+						<datalist id="arma">
+							<option value="Pistola">
+							<option value="Semi-Automatica">
+							<option value="Automatica">
+							<option value="Escopeta Completa">
+							<option value="Escopeta Recortada">
+							<option value="Francotirador">
+							<option value="Lanzallamas">
+							<option value="Cuerpo a cuerpo">
+							<option value="No puedo elegir entre tanta diversión">
+						</datalist><p>
+					<b>¿Cuánto sabes de derechos Laborales?</b> <input type="text" name="derechos" list="derechos" placeholder="¡Vayamos a la parte divertida!" required><p>
+						<datalist id="derechos">
+						<option value="¿Qué significa derechos?">
+						<option value="Escuche que en el Sector-3 tienen algo por el estilo.">
+						<option value="Estoy entendido en el tema.">
+						<option value="No tengo interes en ese tipo de cosas">
+					<datalist><p><b>¿Estás dispuesto a perder un miembro/vida por oro y gloria?</b>
+					<input type="radio" name="dispuesto" value="Si" checked> Sí
+					<input type="radio" name="dispuesto" value="Sin"> Si
+					</datalist>	
+			</fieldset><p></p>
+			<fieldset>
+				<legend><b><u>Terminos y condiciones de la empresa</u></b></legend>
+			<input type="checkbox" name="condiciones" required> <b>Aceptas nuestros términos y condiciones, reconoces tu compromiso con la empresa y con la causa, con la integridad del trabajo. Aceptas obedecer las ordenas de la empresa, a todo momento y sin cuestionar, ante cualquier situación, por la busqueda de oro y riquezas?.Al aceptar nuestros términos, te garantizamos riquezas interminables, en el caso de que sigas con vida para ello. Desde DRG, nos comprometemos totalmente a utilizar tu información de manera ética y segura, cuidando de tu publicidad en todo momento.</b>
+			</fieldset><br>
+			<input type="submit" name="enviar" value="Enviar">
+		</form>
+
+</body>
+</html>

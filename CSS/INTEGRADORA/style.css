@@ -1,0 +1,51 @@
+#box {
+	height: 800px;
+	display: grid;
+	grid-template-areas: "header header header"
+						 "line line line"
+					  	 "menu advertisement column"
+						 "menu content column"
+						 "footer footer footer";
+	grid-template-columns: 20% 75% auto;
+	grid-template-rows: 15% 5% 10% auto 10%;
+}
+
+#column {
+	grid-area: column;
+	background: grey;
+}
+
+#line {
+	grid-area: line;
+	background: #A9A9A9;
+}
+
+#header {
+	grid-area: header;
+	background: black;
+}
+
+#header img {
+	width: 100%;
+}
+
+#menu {
+	grid-area: menu;
+	background: gray;
+}
+
+#advertisement {
+	grid-area: advertisement;
+	background: lightgray;
+}
+
+#content {
+	grid-area: content;
+	background: lightyellow;
+}
+
+#footer {
+	grid-area: footer;
+	background: black;
+
+}
