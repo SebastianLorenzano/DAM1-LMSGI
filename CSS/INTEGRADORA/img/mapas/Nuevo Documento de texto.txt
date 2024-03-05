@@ -1,6 +1,0 @@
-cavernas cristalinas 1
-zona biodensa 2
-fungus 3
-glacial 4
-nucleo de magma 5
-zona radioactiva 6
