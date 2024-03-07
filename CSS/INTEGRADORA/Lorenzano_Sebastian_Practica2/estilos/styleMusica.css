@@ -1,56 +1,68 @@
-#box {
+#musicaBox {
 	height: 800px;
 	display: grid;
-	grid-template-areas: "musicaTitle musicaTitle"
-						   "musicaAlbum1 musicaAlbum2"
+	grid-template-areas:   "musicaAlbum1 musicaAlbum2"
 						   "musicaAlbum3 musicaAlbum4"
 						   "musicaAlbum5 musicaAlbum6";
-	grid-template-columns: 50% 50%;
-	grid-template-columns: auto auto auto auto;
+	grid-template-columns:  auto auto;
 	margin: auto;
 	justify-content: center;
 	text-align: center;
 
 }
 
-
 #musicaTitle {
+	background-color: white;
+	text-align: center;
+	font-family: "Segoe UI", Arial, sans-serif;
+	font-weight: 500;
+	font-size: 40px;
+	
+}
+
+
+#musicaDescription {
 	margin: auto;
 	text-align: center;
 }
 
-#box img {
+#musicaBox img {
 	width: 540px;
 	height: 320px;
+	border: 1px solid;
 
+}
+
+#musicaBox img:hover {
+	opacity: 0.7;
 }
 
 #musicaAlbum1 {
 	grid-area: musicaAlbum1;
-	margin: 5px;
+	margin: 15px;
 }
 
 #musicaAlbum2 {
 	grid-area: musicaAlbum2;
-	margin: 5px;
+	margin: 15px;
 }
 
 #musicaAlbum3 {
 	grid-area: musicaAlbum3;
-	margin: 5px;
+	margin: 15px;
 }
 
 #musicaAlbum4 {
 	grid-area: musicaAlbum4;
-	margin: 5px;
+	margin: 15px;
 }
 
 #musicaAlbum5 {
 	grid-area: musicaAlbum5;
-	margin: 5px;
+	margin: 15px;
 }
 
 #musicaAlbum6 {
 	grid-area: musicaAlbum6;
-	margin: 5px;
+	margin: 15px;	
 }

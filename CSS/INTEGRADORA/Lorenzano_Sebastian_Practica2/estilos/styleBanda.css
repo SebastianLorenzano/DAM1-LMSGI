@@ -1,0 +1,113 @@
+#bandTitle {
+	background-color: lightgrey;
+	text-align: center;
+	font-size: 40px;
+	font-family: "Segoe UI", Arial, sans-serif;
+	font-weight: 500;
+	font-size: 40px;
+	
+}
+
+#bandBox {
+	height: 1350px;
+	display: grid;
+	grid-template-areas:   "column1 column2 column3"
+						   "column1 column2 column3"
+						   "column1 column2 column3";
+	grid-template-columns: 20% auto 20%;
+	grid-template-rows: auto auto auto;
+	background-color: lightgrey;
+}
+
+#column1 {
+	grid-area: column1;
+}
+
+#column2 {
+	grid-area: column2;
+	background-color: lightgrey;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+#column3 {
+	grid-area: column3;
+}
+
+#bandText {
+	background-color: white;
+}
+
+.bandMembers {
+	border-top: 3px dashed black;
+	border-spacing: 1px;
+	height: 400px;
+}
+
+.memberColumn1 {
+	margin-right: 10px;
+	margin-left: 10px;
+}
+
+.memberImgLeft img{
+	width: 380px;
+	height: 250px;
+	margin-top: 40px;
+	margin-left: 20px;
+	border: 2px double grey;
+}
+
+.memberImgRight img{
+	width: 380px;
+	height: 250px;
+	margin-top: 40px;
+	margin-right: 20px;
+	border: 2px double grey;
+}
+
+.memberMediaLeft {
+	margin-left: 20px;
+	text-align: center;
+	border: 1px solid black;
+}
+.memberMediaLeft img {
+	width: 30px;
+}
+
+.memberMediaLeft img:hover {
+	opacity: 0.5;
+}
+
+.memberMediaRight {
+	margin-right: 20px;
+	text-align: center;
+	border: 1px solid black;
+}
+.memberMediaRight img {
+	width: 30px;
+}
+
+.memberMediaRight img:hover {
+	opacity: 0.5;
+}
+
+
+.memberColumn2 {
+	padding: 10px;
+	text-align: center;
+}
+
+.memberColumn2 h1 {
+	padding-top: 35px;
+	font-family: "Segoe UI", Arial, sans-serif;
+}
+
+.memberColumn2 p {
+	text-align: center;
+	text-justify: inter-word;
+	margin-left: 10px;
+	font-size: 15px;
+}
+
+
+
