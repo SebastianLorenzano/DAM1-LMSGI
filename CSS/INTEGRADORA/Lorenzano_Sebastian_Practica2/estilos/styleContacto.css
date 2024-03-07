@@ -1,3 +1,123 @@
 body {
-    /*background-color: black;*/
+    background-color: black;
+}
+
+#contactoTitle {
+	background-color: white;
+	text-align: center;
+	font-family: "Segoe UI", Arial, sans-serif;
+	font-weight: 500;
+	font-size: 40px;
+    height: 100px;
+    padding-top: 20px;
+}
+
+
+#contactoBox {
+    
+    display: grid;
+    font-size: 20px;
+    height: 450px;
+    grid-template-areas: "column1 column2 column3"
+                         "column1 column2 column3";
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto auto;
+}
+
+#column1 {
+    margin-left: auto;
+    margin-right: 40px;
+    grid-area: column1;
+    color: white;
+}
+
+#column1 h3 {
+    text-align: center;
+}
+
+    #contact1 {
+        list-style-image: url("../imagenes/icons/contact1.png");
+        margin-bottom: 10px;
+    }
+
+    #contact2 {
+        list-style-image: url("../imagenes/icons/contact2.png");
+        margin-bottom: 10px;
+    }
+
+    #contact3 {
+        list-style-image: url("../imagenes/icons/contact3.png");
+    }
+
+
+
+#column2 {
+    grid-area: column2;
+}
+
+#column2 h3 {
+    color: white;
+    text-align: center;
+    margin-right: 60px;
+
+}
+
+.contactoInfo {
+    border: 1px solid #b1b0b0;
+    padding: 12px 19px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    color: #000;
+    width: 80%;
+}
+
+#column3 {
+    color: white;
+    grid-area: column3;
+}
+
+#column3 h3 {
+    margin-left: 100px;
+}
+
+#containerColumn3 {
+    height: 110px;
+    width: 410px;
+    display: grid;
+    grid-template-areas: "cancionHit1 cancionHit2"
+                         "cancionHit3 cancionHit4";
+}
+
+#containerColumn3 div {
+}
+
+#cancionHit1 {
+    grid-area: cancionHit1;
+    
+}
+
+#cancionHit2 {
+    grid-area: cancionHit2;
+    
+}
+
+#cancionHit3 {
+    grid-area: cancionHit3;
+}
+
+#cancionHit4 {
+    grid-area: cancionHit4;
+
+}
+
+#column3 img {
+    height: 200px;
+}
+
+#column3 img:hover {
+    opacity: 0.7;
+}
+
+#streetImg {
+    width: 100%;
 }
